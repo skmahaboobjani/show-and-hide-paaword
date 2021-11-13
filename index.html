@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: paleturquoise;
+        }
+        #parent{
+            margin: 250px auto;
+            text-align: center;
+            box-shadow: 0 0 20px red;
+            padding: 45px;
+            width: 700px;
+            background-color: black;
+        }
+        
+        
+        
+        #p1{
+            background-color: tomato;
+            
+
+        }
+        #p2{
+            background-color: yellowgreen;
+        }
+        #p3{
+            background-color: blueviolet;
+        }
+        button{
+            box-shadow: 30px solid red;
+            font-size: 20px;
+            margin: 20px;
+            padding: 10px;
+
+        }
+        #jan{
+            
+            box-shadow: 200px solid yellowgreen;
+        
+        }
+        
+
+    </style>
+</head>
+<body>
+    <script>
+        function mabu() {
+           var fn1= document.getElementById('jan')
+           fn1.innerHTML="goodmorning mahaboobjani ";
+           
+             
+        
+           
+           
+        
+           
+
+        }
+        function mabu1(){
+            var fn2=document.getElementById('jan')
+            fn2.innerHTML="goodevening mahaboobjani"
+            
+
+        }
+        function mabu2(){
+            var fn3=document.getElementById('jan')
+            fn3.innerHTML="goodnight mahaboobjani"
+        }
+
+    </script>
+    
+    <div id="parent">
+        
+        <h2  input value ="mahaboobjani" id="jan", style="color:violet;">mahaboobjani</h2>
+    <button onclick="mabu()"  id="p1" style="color: blue;" >good morning </button>
+    <Button onclick="mabu1()"  id="p2">good evening</Button>
+    <button onclick="mabu2()" id="p3">good night</button>
+    </div>
+    
+    
+</body>
+</html>
